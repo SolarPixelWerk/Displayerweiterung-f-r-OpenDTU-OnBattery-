@@ -4,6 +4,20 @@ Firmware fuer ein ESP32-2432S028R Display, das Daten einer OpenDTU-OnBattery-Ins
 
 Das Projekt ist ein privates Community-Projekt und kein offizielles OpenDTU-Projekt.
 
+## Vorschau
+
+### Display Seite 1
+
+![Display Seite 1](assets/display-seite-1.jpg)
+
+### Display Seite 2
+
+![Display Seite 2](assets/display-seite-2.jpg)
+
+### Hotspot-Einrichtung
+
+![Hotspot Setup](assets/hotspot-setup.png)
+
 ## Funktionen
 
 - 2 Display-Seiten fuer 320 x 240 Pixel im Querformat
@@ -137,4 +151,3 @@ In der Hotspot-Version enthaelt `config.h` keine privaten Daten mehr. Zugangsdat
 ## Lizenz
 
 MIT License, siehe `LICENSE`.
-
