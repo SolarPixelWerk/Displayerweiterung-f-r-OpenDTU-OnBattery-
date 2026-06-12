@@ -1,0 +1,4 @@
+#pragma once
+
+#define DTU_REFRESH_SECONDS 30
+#define BATTERY_REFRESH_SECONDS 60

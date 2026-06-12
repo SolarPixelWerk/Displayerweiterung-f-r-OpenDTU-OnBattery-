@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1450" viewBox="0 0 900 1450">
+  <defs>
+    <linearGradient id="phoneBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f1d2d"/>
+      <stop offset="1" stop-color="#06090f"/>
+    </linearGradient>
+    <style>
+      .page { fill:#10141b; }
+      .phone { fill:url(#phoneBg); stroke:#2f4562; stroke-width:8; }
+      .bar { fill:#192f4a; }
+      .title { font: 700 44px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill:#f5f8ff; }
+      .sub { font: 27px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill:#a9bbd1; }
+      .section { font: 700 25px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill:#82e9ff; letter-spacing:.5px; }
+      .label { font: 25px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill:#dce8ff; }
+      .hint { font: 21px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill:#8fa2b8; }
+      .input { fill:#0b121d; stroke:#36506e; stroke-width:3; }
+      .inputText { font: 27px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill:#718399; }
+      .button { fill:#75f0c1; }
+      .buttonText { font: 700 31px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill:#062d24; }
+      .secondary { fill:none; stroke:#36506e; stroke-width:3; }
+      .secondaryText { font: 27px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill:#dce8ff; }
+      .pill { fill:#24384f; }
+      .pillText { font: 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill:#b8c7d8; }
+    </style>
+  </defs>
+
+  <rect width="900" height="1450" class="page"/>
+
+  <g transform="translate(125,45)">
+    <rect x="0" y="0" width="650" height="1360" rx="70" class="phone"/>
+    <rect x="52" y="26" width="546" height="40" rx="20" fill="#05070b"/>
+    <circle cx="325" cy="46" r="9" fill="#263f5f"/>
+
+    <g transform="translate(34,95)">
+      <rect x="0" y="0" width="582" height="114" rx="24" class="bar"/>
+      <text x="28" y="48" class="title">Balkonkraftwerk Setup</text>
+      <text x="30" y="86" class="sub">Hotspot: Balkonkraftwerk-Setup</text>
+    </g>
+
+    <g transform="translate(54,245)">
+      <text x="0" y="0" class="section">WLAN</text>
+
+      <text x="0" y="48" class="label">WLAN-Name</text>
+      <rect x="0" y="64" width="542" height="72" rx="14" class="input"/>
+      <text x="22" y="109" class="inputText">z.B. Heimnetz</text>
+
+      <text x="0" y="184" class="label">WLAN-Passwort</text>
+      <rect x="0" y="200" width="542" height="72" rx="14" class="input"/>
+      <text x="22" y="245" class="inputText">••••••••••••••••</text>
+
+      <text x="0" y="334" class="section">OpenDTU-OnBattery</text>
+
+      <text x="0" y="382" class="label">OpenDTU-OnBattery IP</text>
+      <rect x="0" y="398" width="542" height="72" rx="14" class="input"/>
+      <text x="22" y="443" class="inputText">192.168.1.100</text>
+
+      <text x="0" y="518" class="label">Benutzername</text>
+      <rect x="0" y="534" width="542" height="72" rx="14" class="input"/>
+      <text x="22" y="579" class="inputText">admin</text>
+
+      <text x="0" y="654" class="label">Passwort</text>
+      <rect x="0" y="670" width="542" height="72" rx="14" class="input"/>
+      <text x="22" y="715" class="inputText">••••••••••••</text>
+
+      <text x="0" y="790" class="label">Inverter-Seriennummer</text>
+      <rect x="0" y="806" width="542" height="72" rx="14" class="input"/>
+      <text x="22" y="851" class="inputText">z.B. 123456789012</text>
+
+      <rect x="0" y="918" width="542" height="86" rx="18" class="button"/>
+      <text x="271" y="972" text-anchor="middle" class="buttonText">Speichern und Neustarten</text>
+
+      <rect x="0" y="1030" width="542" height="72" rx="16" class="secondary"/>
+      <text x="271" y="1076" text-anchor="middle" class="secondaryText">Nur WLAN testen</text>
+
+      <rect x="0" y="1138" width="542" height="98" rx="18" class="pill"/>
+      <text x="22" y="1178" class="pillText">Nach dem Speichern verbindet sich das Display</text>
+      <text x="22" y="1210" class="pillText">mit deinem WLAN und liest die OpenDTU-Daten.</text>
+    </g>
+  </g>
+</svg>
